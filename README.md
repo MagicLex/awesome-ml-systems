@@ -16,6 +16,7 @@ holdout, no demo wired to a mock.
 | # | system | the question | result | published | repo |
 |---|---|---|---|---|---|
 | 001 | README Vaporware Score | does a repo get abandoned, from its README text alone? | ROC-AUC 0.76 | 2026-06-29 | [readme-vaporware-score](https://github.com/MagicLex/readme-vaporware-score) |
+| 002 | Asteroid Doomsday-o-meter | is a near-Earth asteroid "potentially hazardous", from its orbit geometry alone? | ROC-AUC 0.86 | 2026-06-29 | [asteroid-hazard](https://github.com/MagicLex/asteroid-hazard) |
 
 ## The standard
 
