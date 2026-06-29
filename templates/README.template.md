@@ -2,11 +2,11 @@
 
 ![{System Name}](assets/banner.svg)
 
+[![awesome-ml-systems](https://img.shields.io/badge/awesome--ml--systems-%23NNN-34d399?labelColor=0b0e11&style=flat)](https://github.com/MagicLex/awesome-ml-systems)
+[![Hopsworks](https://img.shields.io/badge/built_on-Hopsworks-1CB182?labelColor=0b0e11&style=flat)](https://www.hopsworks.ai/)
+
 {One or two sentences: the question this system answers, and the honest one-line
 answer including the headline metric.}
-
-Part of [awesome-ml-systems](https://github.com/MagicLex/awesome-ml-systems), an
-FTI system on [Hopsworks](https://www.hopsworks.ai/).
 
 ## The result
 
