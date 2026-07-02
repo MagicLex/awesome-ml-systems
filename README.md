@@ -2,7 +2,7 @@
 
 ![awesome-ml-systems](assets/banner.svg)
 
-[![systems](https://img.shields.io/badge/systems-3-34d399?labelColor=0b0e11&style=flat)](#the-series)
+[![systems](https://img.shields.io/badge/systems-4-34d399?labelColor=0b0e11&style=flat)](#the-series)
 [![Hopsworks](https://img.shields.io/badge/built_on-Hopsworks-1CB182?labelColor=0b0e11&style=flat)](https://www.hopsworks.ai/)
 
 One small, honest ML system per day, each built end to end on
@@ -18,6 +18,8 @@ holdout, no demo wired to a mock.
 | 001 | README Vaporware Score | does a repo get abandoned, from its README text alone? | ROC-AUC 0.76 | 2026-06-29 | [readme-vaporware-score](https://github.com/MagicLex/readme-vaporware-score) |
 | 002 | Asteroid Doomsday-o-meter | how big is an asteroid (so, how dangerous), from its Gaia spectrum alone? | size error ×1.13 vs ×1.34 blind | 2026-06-30 | [asteroid-size-from-light](https://github.com/MagicLex/asteroid-size-from-light) |
 | 003 | Phishing at Issuance | is a freshly issued TLS certificate phishing, from its hostname alone? | ROC-AUC 0.78 holdout vs 0.50 blind | 2026-07-01 | [phish-at-issuance](https://github.com/MagicLex/phish-at-issuance) |
+| 004 | Where on Earth | which country was a photo taken in, from its pixels alone? | top-1 52.3% / top-5 79.8% over 173 countries vs 21.2% zero-shot | 2026-07-02 | [where-on-earth](https://github.com/MagicLex/where-on-earth) |
+
 ## The standard
 
 Every repo in the series follows the same mould, so they read as siblings.
