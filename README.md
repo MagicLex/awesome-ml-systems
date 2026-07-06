@@ -2,7 +2,7 @@
 
 ![awesome-ml-systems](assets/banner.svg)
 
-[![systems](https://img.shields.io/badge/systems-5-34d399?labelColor=0b0e11&style=flat)](#the-series)
+[![systems](https://img.shields.io/badge/systems-6-34d399?labelColor=0b0e11&style=flat)](#the-series)
 [![Hopsworks](https://img.shields.io/badge/built_on-Hopsworks-1CB182?labelColor=0b0e11&style=flat)](https://www.hopsworks.ai/)
 
 One small, honest ML system per day, each built end to end on
@@ -20,6 +20,7 @@ holdout, no demo wired to a mock.
 | 003 | Phishing at Issuance | is a freshly issued TLS certificate phishing, from its hostname alone? | ROC-AUC 0.78 holdout vs 0.50 blind | 2026-07-01 | [phish-at-issuance](https://github.com/MagicLex/phish-at-issuance) |
 | 004 | Where on Earth | which country was a photo taken in, from its pixels alone? | top-1 52.3% / top-5 79.8% over 173 countries vs 21.2% zero-shot | 2026-07-02 | [where-on-earth](https://github.com/MagicLex/where-on-earth) |
 | 005 | How Predictable. | can a machine learn your taste in 30 clicks, live, in front of you? | crowd prior 0.719 pairwise vs 0.511 zero-shot; per-user Bayesian layer climbs on-screen | 2026-07-03 | [how-predictable](https://github.com/MagicLex/how-predictable) |
+| 006 | Live Sky Watch | where will every aircraft over Europe be in 60/180/300 s, and which one is not behaving like traffic here? | live same-sample: model 964 m vs physics 1427 m at 60 s where it intervenes; jamming grid + learned normalcy | 2026-07-06 | [live-sky-watch](https://github.com/MagicLex/live-sky-watch) |
 
 ## The standard
 
