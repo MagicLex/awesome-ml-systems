@@ -2,7 +2,7 @@
 
 ![awesome-ml-systems](assets/banner.svg)
 
-[![systems](https://img.shields.io/badge/systems-7-34d399?labelColor=0b0e11&style=flat)](#the-series)
+[![systems](https://img.shields.io/badge/systems-8-34d399?labelColor=0b0e11&style=flat)](#the-series)
 [![Hopsworks](https://img.shields.io/badge/built_on-Hopsworks-1CB182?labelColor=0b0e11&style=flat)](https://www.hopsworks.ai/)
 
 One small, honest ML system per day, each built end to end on
