@@ -23,6 +23,7 @@ holdout, no demo wired to a mock.
 | 006 | Live Sky Watch | where will every aircraft over Europe be in 60/180/300 s, and which one is not behaving like traffic here? | live same-sample: model 964 m vs physics 1427 m at 60 s where it intervenes; jamming grid + learned normalcy | 2026-07-06 | [live-sky-watch](https://github.com/MagicLex/live-sky-watch) |
 | 007 | Ghost Fleet | which vessels behave like the sanctioned shadow fleet, from their AIS tracks alone? | 9.4x lift over a blind sanctions-list lookup, ROC-AUC 0.92 (population split); live network reveal | 2026-07-07 | [ghost-fleet](https://github.com/MagicLex/ghost-fleet) |
 | 008 | the untested | which never-tested plant might fight a drug-resistant infection, from molecular structure alone? | mean AMR ROC-AUC 0.80, beats 1-NN Tanimoto on every scored head; recovers *Artemisia* for malaria from structure alone | 2026-07-08 | [the-untested](https://github.com/MagicLex/the-untested) |
+| 009 | downwind | what is in the air where nobody is measuring? | PM2.5 20.9% RMSE under the raw CAMS prior at leave-stations-out stations (r2 0.61 vs 0.38); live all-Europe field with a monitored-vs-predicted frontier | 2026-07-09 | [downwind](https://github.com/MagicLex/downwind) |
 
 ## The standard
 
