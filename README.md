@@ -2,7 +2,7 @@
 
 ![awesome-ml-systems](assets/banner.svg)
 
-[![systems](https://img.shields.io/badge/systems-8-34d399?labelColor=0b0e11&style=flat)](#the-series)
+[![systems](https://img.shields.io/badge/systems-10-34d399?labelColor=0b0e11&style=flat)](#the-series)
 [![Hopsworks](https://img.shields.io/badge/built_on-Hopsworks-1CB182?labelColor=0b0e11&style=flat)](https://www.hopsworks.ai/)
 
 One small, honest ML system per day, each built end to end on
@@ -24,6 +24,7 @@ holdout, no demo wired to a mock.
 | 007 | Ghost Fleet | which vessels behave like the sanctioned shadow fleet, from their AIS tracks alone? | 9.4x lift over a blind sanctions-list lookup, ROC-AUC 0.92 (population split); live network reveal | 2026-07-07 | [ghost-fleet](https://github.com/MagicLex/ghost-fleet) |
 | 008 | the untested | which never-tested plant might fight a drug-resistant infection, from molecular structure alone? | mean AMR ROC-AUC 0.80, beats 1-NN Tanimoto on every scored head; recovers *Artemisia* for malaria from structure alone | 2026-07-08 | [the-untested](https://github.com/MagicLex/the-untested) |
 | 009 | downwind | what is in the air where nobody is measuring? | PM2.5 20.9% RMSE under the raw CAMS prior at leave-stations-out stations (r2 0.61 vs 0.38); live all-Europe field with a monitored-vs-predicted frontier | 2026-07-09 | [downwind](https://github.com/MagicLex/downwind) |
+| 010 | dead-air | can you hear a solar flare black out the shortwave bands before the bulletin? | held-out event recall 0.41 / precision 0.15 vs GOES M1+, median 3 min lead; broad multi-band dayside collapses fire before the flare record | 2026-07-11 | [dead-air](https://github.com/MagicLex/dead-air) |
 
 ## The standard
 
