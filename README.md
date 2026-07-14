@@ -25,7 +25,7 @@ holdout, no demo wired to a mock.
 | 008 | the untested | which never-tested plant might fight a drug-resistant infection, from molecular structure alone? | mean AMR ROC-AUC 0.80, beats 1-NN Tanimoto on every scored head; recovers *Artemisia* for malaria from structure alone | 2026-07-08 | [the-untested](https://github.com/MagicLex/the-untested) |
 | 009 | downwind | what is in the air where nobody is measuring? | PM2.5 20.9% RMSE under the raw CAMS prior at leave-stations-out stations (r2 0.61 vs 0.38); live all-Europe field with a monitored-vs-predicted frontier | 2026-07-09 | [downwind](https://github.com/MagicLex/downwind) |
 | 010 | LLM Tell Auditor | does academic prose read like an LLM wrote it, from style alone? | ROC-AUC 0.986 held out by paper vs 0.50 blind (within-provider label); evidence per passage, signal not verdict | 2026-07-13 | [llm-tell-auditor](https://github.com/MagicLex/llm-tell-auditor) |
-| 011 | empty-chair | which UK companies' ownership disclosure is shaped like known concealment, from the disclosure alone? | PR-AUC 0.286, 6.1x lift over base rate on a grouped holdout; precision@100 0.76; demographics-only control barely beats chance, shuffle collapses; signal not verdict | 2026-07-13 | [empty-chair](https://github.com/MagicLex/empty-chair) |
+| 011 | empty-chair | which UK companies' ownership disclosure is shaped like known concealment, from the disclosure alone? | PR-AUC 0.199, 4.2x lift, precision@100 0.42, sector-blind; the 0.377 sector-aware version was retired by its own bias audit (top 1% was 99.3% real estate); signal not verdict | 2026-07-14 | [empty-chair](https://github.com/MagicLex/empty-chair) |
 
 ## The dog house
 
