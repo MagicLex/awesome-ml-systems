@@ -27,6 +27,7 @@ holdout, no demo wired to a mock.
 | 010 | LLM Tell Auditor | does academic prose read like an LLM wrote it, from style alone? | ROC-AUC 0.986 held out by paper vs 0.50 blind (within-provider label); evidence per passage, signal not verdict | 2026-07-13 | [llm-tell-auditor](https://github.com/MagicLex/llm-tell-auditor) |
 | 011 | empty-chair | which UK companies' ownership disclosure is shaped like known concealment, from the disclosure alone? | PR-AUC 0.199, 4.2x lift, precision@100 0.42, sector-blind; the 0.377 sector-aware version was retired by its own bias audit (top 1% was 99.3% real estate); signal not verdict | 2026-07-14 | [empty-chair](https://github.com/MagicLex/empty-chair) |
 | 012 | unstarred | which repos would you have starred already, if you had seen them? | recall@100 10.45% on 144k future stars over 362k repos; shuffled-label control lands at 6.65% (the corpus-popularity floor), trending at 0.28%; personalization = 2.1x MRR over the floor | 2026-07-15 | [unstarred](https://github.com/MagicLex/unstarred) |
+| 013 | cited or buried | will the AI answer quote your page, or just rank it? | pointwise citation AUROC 0.746 vs 0.721 rank-alone (held out by query, 200 queries); reordering the top-3 is dead (P@3 +0.003) since rank saturates the top; 40% of AI citations land below the top-3 results; live page-scoring coach; signal not oracle | 2026-07-17 | [cited-or-buried](https://github.com/MagicLex/cited-or-buried) |
 
 ## The dog house
 
