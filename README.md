@@ -28,18 +28,9 @@ holdout, no demo wired to a mock.
 | 011 | empty-chair | which UK companies' ownership disclosure is shaped like known concealment, from the disclosure alone? | PR-AUC 0.199, 4.2x lift, precision@100 0.42, sector-blind; the 0.377 sector-aware version was retired by its own bias audit (top 1% was 99.3% real estate); signal not verdict | 2026-07-14 | [empty-chair](https://github.com/MagicLex/empty-chair) |
 | 012 | unstarred | which repos would you have starred already, if you had seen them? | recall@100 10.45% on 144k future stars over 362k repos; shuffled-label control lands at 6.65% (the corpus-popularity floor), trending at 0.28%; personalization = 2.1x MRR over the floor | 2026-07-15 | [unstarred](https://github.com/MagicLex/unstarred) |
 
-## Work in progress
-
-Real FTI builds whose finding holds up but whose demo does not yet sell it. Kept
-public while the story gets sharper.
-
-| system | the question | where it stands | repo |
-|---|---|---|---|
-| cited or buried | will the AI answer quote your page, or just rank it? | The finding is real: pointwise citation AUROC 0.746 vs 0.721 rank-alone (held out by query), and 40% of AI citations land below the top-3 search results. But the idea is abstract and the app does not yet make that gap felt. Reworking the demo before it earns a number in the series. | [cited-or-buried](https://github.com/MagicLex/cited-or-buried) |
-
 ## The dog house
 
-One honest exception. The series test is a decision someone can act on. These
+Honest exceptions. The series test is a decision someone can act on. These
 builds are clean FTI systems and nice to look at, but the use case does not hold
 up to that test, so they sit here, unnumbered, kept public because the
 engineering is real.
@@ -47,6 +38,7 @@ engineering is real.
 | system | the question | why it is here | repo |
 |---|---|---|---|
 | dead-air | can you hear a solar flare black out the shortwave bands before the bulletin? | beautiful instrument, no decision attached: a few-minute lead measured against a bulletin nobody waits on (and negative on the holdout), and it misses roughly four flares in five. You cannot act on the ionosphere anyway. Real code, wrong problem. | [dead-air](https://github.com/MagicLex/dead-air) |
+| cited or buried | will the AI answer quote your page, or just rank it? | the data tells a real story: 40% of AI citations go to a page that was not in the top-3 search results, and rank correlates with citation only -0.36. But that gap belongs to the answer engine, not to the model. Over raw search rank the model adds almost nothing: pointwise AUROC 0.746 vs 0.721, precision@3 +0.003 (rank already saturates the top). So the coach cannot tell you much beyond where you already rank. Clean corpus, honest finding, no lift to act on. | [cited-or-buried](https://github.com/MagicLex/cited-or-buried) |
 
 ## The standard
 
